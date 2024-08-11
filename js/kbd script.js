@@ -2,7 +2,7 @@ let currentInputField = document.getElementById('thinner');
 
 function inputDigit(digit) {
     if (digit === '.' && currentInputField.value.includes('.')) {
-        return; // Prevent multiple dots
+        return; 
     }
     currentInputField.value += digit;
     currentInputField.focus();
